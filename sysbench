@@ -1,0 +1,14 @@
+sysbench \
+--db-driver=pgsql \
+--table-size=10000 \
+--time=360 \
+--threads=64 \
+--pgsql-host=127.0.0.1 \
+--pgsql-port=2244 \
+--pgsql-user=root \
+--pgsql-password=1234567890 \
+--pgsql-db=root \
+/usr/local/share/sysbench/oltp_read_write.lua \
+run
+
+
