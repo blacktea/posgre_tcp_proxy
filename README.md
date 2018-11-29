@@ -1,1 +1,1 @@
-# posgre_tcp_proxy
+# postgresql_tcp_proxy
