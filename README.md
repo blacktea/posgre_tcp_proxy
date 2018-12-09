@@ -1,1 +1,18 @@
 # postgresql_tcp_proxy
+
+This utility is a tcp proxy of postgresql database to log clients queries.
+
+Dependencies:
+cmake 2.8
+boost-asio+
+c++14
+
+Build:
+mkdir build
+cd build
+cmake ..
+make
+
+Run:
+
+./proxy_db --proxy-port 2244 --db-host localhost --db-port 5432
